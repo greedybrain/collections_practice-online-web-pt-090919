@@ -40,6 +40,19 @@ def sum_array(int_arr)
   int_arr.inject(0) { |sum, num| sum + num }
 end
 
+def add_s(str_arr)
+  str_arr.each_wtih_index.collect do |ele, index|
+    ele += 's' if index != 1
+  end
+end
+
+
+
+
+
+
+
+
 
 
 
