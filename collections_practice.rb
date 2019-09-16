@@ -32,6 +32,11 @@ def kesha_maker(str_arr)
   new_arr
 end
 
+def find_a(str_arr)
+  str_arr.select do |str|
+    str.start_with?('a')
+  end
+end
 
 
 
