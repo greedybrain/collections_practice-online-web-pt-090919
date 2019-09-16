@@ -38,6 +38,9 @@ def find_a(str_arr)
   end
 end
 
+def sum_arr(int_arr)
+  
+end
 
 
 
