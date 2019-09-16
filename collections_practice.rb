@@ -42,7 +42,7 @@ end
 
 def add_s(str_arr)
   str_arr.each_with_index.collect do |ele, index|
-    if index != 2 
+    if index != 1
       ele += 's'
     else
       ele
