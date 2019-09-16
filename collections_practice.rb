@@ -39,7 +39,7 @@ def find_a(str_arr)
 end
 
 def sum_arr(int_arr)
-  int_arr.inject(0) { |num| num }
+  int_arr.inject(0) { |sum, num| sum + num }
 end
 
 
