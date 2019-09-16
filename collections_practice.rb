@@ -25,9 +25,7 @@ end
 def kesha_maker(str_arr)
   new_arr = []
   str_arr.each do |str|
-    if str.length >= 3
-      str.split('')[2] = '$'
-    end
+    str[2] = $
   end
 end
 
