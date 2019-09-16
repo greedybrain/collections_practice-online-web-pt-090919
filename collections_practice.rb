@@ -25,8 +25,11 @@ end
 def kesha_maker(str_arr)
   new_arr = []
   str_arr.each do |str|
-    str[2] = "$"
+    str = str.split('').insert(2, '$')
+    str.delete_at(3)
+    new_arr << str
   end
+  new_arr
 end
 
 
