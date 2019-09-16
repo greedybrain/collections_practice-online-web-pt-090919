@@ -46,6 +46,7 @@ def add_s(str_arr)
       ele += 's'
     else
       ele
+    end
   end
 end
 
