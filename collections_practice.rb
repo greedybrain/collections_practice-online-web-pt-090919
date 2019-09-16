@@ -14,6 +14,6 @@ end
 
 def swap_elements(arr)
   arr = arr.insert(1, arr[2]).pop!
-  arr.pop
+  # arr.pop
   arr
 end
