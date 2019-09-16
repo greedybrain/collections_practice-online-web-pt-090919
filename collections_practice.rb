@@ -13,5 +13,5 @@ def sort_array_char_count (str_arr)
 end
 
 def swap_elements(arr)
-  arr.insert(1, arr[2]).pop
+  arr.insert(1, arr[2])
 end
