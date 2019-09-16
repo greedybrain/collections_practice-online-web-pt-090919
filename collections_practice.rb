@@ -27,7 +27,7 @@ def kesha_maker(str_arr)
   str_arr.each do |str|
     str = str.split('').insert(2, '$')
     str.delete_at(3)
-    new_arr << str
+    new_arr << str.join('')
   end
   new_arr
 end
