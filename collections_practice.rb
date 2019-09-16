@@ -33,9 +33,7 @@ def kesha_maker(str_arr)
 end
 
 def find_a(str_arr)
-  str_arr.select do |str|
-    str.start_with?('a')
-  end
+  str_arr.select { |str| str.start_with?('a') }
 end
 
 def sum_arr(int_arr)
