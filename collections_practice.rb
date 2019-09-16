@@ -17,3 +17,16 @@ def swap_elements(arr)
   arr.pop
   arr
 end
+
+def reverse_array(int_arr)
+  int_arr.reverse
+end
+
+
+
+
+
+
+
+
+
